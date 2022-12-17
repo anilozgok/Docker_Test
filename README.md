@@ -12,7 +12,7 @@ After creating .jar file we are ready to create our Dockerfile.
 
 In Dockerfile:
 
-![](../../../Desktop/Screenshot_5.jpg)
+![](images/Screenshot_5.jpg)
 
 First line is for the java version.
 
@@ -37,6 +37,6 @@ docker run -p 9090:8080 --name spring-boot-docker-test spring-boot-deneme.jar
 With the code above we can run our docker image on localhost 9090 port.
 
 
-![](../../../Desktop/Screenshot_6.jpg)
+![](images/Screenshot_6.jpg)
 
 As you can see our image is ready to run and use.
