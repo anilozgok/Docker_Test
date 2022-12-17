@@ -32,7 +32,7 @@ After taking build of our Dockerfile our image will be created as spring-boot-do
 
 
 ```
-docker run -p 9090:8080 --name spring-boot-docker-test spring-boot-test.jar
+docker run -p 9090:8080 --name spring-boot-docker-test spring-boot-docker-test.jar
 ```
 With the code above we can run our docker image on localhost 9090 port.
 
