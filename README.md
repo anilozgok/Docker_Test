@@ -28,11 +28,11 @@ After creating Dockerfile we need to write some commands on terminal.
 docker build -t spring-boot-docker-test.jar
 ```
 
-After taking build of our Dockerfile our image should be created as spring-boot-docker-test.jar.
+After taking build of our Dockerfile our image will be created as spring-boot-docker-test.jar.
 
 
 ```
-docker run -p 9090:8080 --name spring-boot-docker-test spring-boot-deneme.jar
+docker run -p 9090:8080 --name spring-boot-docker-test spring-boot-test.jar
 ```
 With the code above we can run our docker image on localhost 9090 port.
 
